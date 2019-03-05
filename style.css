@@ -301,3 +301,246 @@ clearfix {
     display: table;
     clear: both;
 }
+
+.gb {
+    display: block;
+    height: 496px;
+    width: 320px;
+    position: absolute;
+    top: -9999px;
+    right: 47px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-color: rgba(0,0,0,.2);
+    box-shadow: 0 2px 10px rgba(0,0,0,.2);
+    border-radius: 2px;
+    outline: none;
+    color: #000;
+    overflow: hidden;
+}
+
+.gb_ul {
+    display: block;
+    background: #fff;
+    margin: 0;
+    padding: 24px;
+    width: 278px;
+    min-height: 100px;
+    text-align: left;
+}
+
+.gb_li {
+    padding: 1px;
+    display: inline-block;
+    vertical-align: top;
+    color: #000;
+    z-index: 999;
+    height: 98px;
+    width: 86px;
+    text-align: left;
+    border: 1px solid transparent;
+}
+
+.gb_li:hover {
+border: 1px solid #e5e5e5;
+}
+
+.gb_a {
+    display: inline-block;
+    font-size: 13px;
+    margin: 8px 2px;
+    text-align: center;
+    outline: none;
+}
+
+.gb_ac_a .gb_k {
+    background-image: url('https://ssl.gstatic.com/gb/images/p1_254618290.png');
+    background-size: 64px 2410px;
+    display: inline-block;
+    vertical-align: top;
+    height: 64px;
+    width: 64px;
+    background-position: 0 -69px;
+}
+
+.gb_ac_a .gb_ac {
+    display: block;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 84px;
+}
+
+
+.gb_se_a .gb_k {
+    background-image: url('https://ssl.gstatic.com/gb/images/p1_254618290.png');
+    background-size: 64px 2410px;
+    display: inline-block;
+    vertical-align: top;
+    height: 64px;
+    width: 64px;
+    background-position: 0px -1311px;
+}
+
+.gb_se_a .gb_ac {
+    display: block;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 84px;
+}
+
+.gb_pl_a .gb_k {
+    background-image: url('https://ssl.gstatic.com/gb/images/p1_254618290.png');
+    background-size: 64px 2410px;
+    display: inline-block;
+    vertical-align: top;
+    height: 64px;
+    width: 64px;
+    background-position: 0 -2346px;
+}
+
+.gb_pl_a .gb_ac {
+    display: block;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 84px;
+}
+
+.gb_gm_a .gb_k {
+    background-image: url('https://ssl.gstatic.com/gb/images/p1_254618290.png');
+    background-size: 64px 2410px;
+    display: inline-block;
+    vertical-align: top;
+    height: 64px;
+    width: 64px;
+    background-position: 0 -1104px;
+}
+
+.gb_gm_a .gb_ac {
+    display: block;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 84px;
+}
+
+.gb_co_a .gb_k {
+    background-image: url('https://ssl.gstatic.com/gb/images/p1_254618290.png');
+    background-size: 64px 2410px;
+    display: inline-block;
+    vertical-align: top;
+    height: 64px;
+    width: 64px;
+    background-position: 0 -2139px;
+}
+
+.gb_co_a .gb_ac {
+    display: block;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 84px;
+}
+
+.gb_dr_a .gb_k {
+    background-image: url('https://ssl.gstatic.com/gb/images/p1_254618290.png');
+    background-size: 64px 2410px;
+    display: inline-block;
+    vertical-align: top;
+    height: 64px;
+    width: 64px;
+    background-position: 0 -2001px;
+}
+
+.gb_dr_a .gb_ac {
+    display: block;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 84px;
+}
+
+.gb_ca_a .gb_k {
+    background-image: url('https://ssl.gstatic.com/gb/images/p1_254618290.png');
+    background-size: 64px 2410px;
+    display: inline-block;
+    vertical-align: top;
+    height: 64px;
+    width: 64px;
+    background-position: 0 -828px;
+}
+
+.gb_ca_a .gb_ac {
+    display: block;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 84px;
+}
+
+.gb_go_a .gb_k {
+    background-image: url('https://ssl.gstatic.com/gb/images/p1_254618290.png');
+    background-size: 64px 2410px;
+    display: inline-block;
+    vertical-align: top;
+    height: 64px;
+    width: 64px;
+    background-position: 0 -414px;
+}
+
+.gb_go_a .gb_ac {
+    display: block;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 84px;
+}
+
+.gb_tr_a .gb_k {
+    background-image: url('https://ssl.gstatic.com/gb/images/p1_254618290.png');
+    background-size: 64px 2410px;
+    display: inline-block;
+    vertical-align: top;
+    height: 64px;
+    width: 64px;
+    background-position: 0 -1656px;
+}
+
+.gb_tr_a .gb_ac {
+    display: block;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 84px;
+}
+
+.gb_ph_a .gb_k {
+    background-image: url('https://ssl.gstatic.com/gb/images/p1_254618290.png');
+    background-size: 64px 2410px;
+    display: inline-block;
+    vertical-align: top;
+    height: 64px;
+    width: 64px;
+    background-position: 0 -1518px;
+}
+
+.gb_ph_a .gb_ac {
+    display: block;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 84px;
+}
+
+.gb_m {
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    width: 320px;
+    background: #f5f5f5;
+    cursor: pointer;
+    height: 40px;
+    overflow: hidden;
+}

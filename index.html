@@ -24,7 +24,77 @@
                      <a href="#" class="images_href">Images</a>
                  </div>
              </div>
-             <a href="#" class="app_google" alt="Google apps" title="Google apps"></a>
+             <a onclick="openclosed()" href="#" class="app_google" alt="Google apps" title="Google apps"></a>
+             
+             
+<!--             
+            
+            Google_bar
+            
+            -->
+             
+             
+            <div class="gb" id="db">
+                
+                <ul class=gb_ul>
+                    <li class="gb_li"><a class="gb_ac_a gb_a" href="#">
+                       <span class="gb_k"></span>
+                        <span class="gb_ac">Account</span>
+                    </a></li>
+                    <li class="gb_li"><a class="gb_se_a gb_a" href="#">
+                        <span class="gb_k"></span>
+                        <span class="gb_ac">Search</span>
+                        </a>
+                    </li>
+                    <li class="gb_li"><a class="gb_pl_a gb_a" href="#">
+                        <span class="gb_k"></span>
+                        <span class="gb_ac">Play</span>
+                    </a></li>
+                    <li class="gb_li"><a class="gb_gm_a gb_a" href="#">
+                        <span class="gb_k"></span>
+                        <span class="gb_ac">Gmail</span>
+                    </a></li>
+                    <li class="gb_li"><a class="gb_co_a gb_a" href="#">
+                        <span class="gb_k"></span>
+                        <span class="gb_ac">Contacts</span>
+                    </a></li>
+                    <li class="gb_li"><a class="gb_dr_a gb_a" href="#">
+                        <span class="gb_k"></span>
+                        <span class="gb_ac">Drive</span>
+                    </a></li>
+                    <li class="gb_li"><a class="gb_ca_a gb_a" href="#">
+                        <span class="gb_k"></span>
+                        <span class="gb_ac">Calendar</span>
+                    </a></li>
+                    <li class="gb_li"><a class="gb_go_a gb_a" href="#">
+                        <span class="gb_k"></span>
+                        <span class="gb_ac">Google+</span>
+                    </a></li>
+                    <li class="gb_li"><a class="gb_tr_a gb_a" href="#">
+                        <span class="gb_k"></span>
+                        <span class="gb_ac">Translate</span>
+                    </a></li>
+                    <li class="gb_li"><a class="gb_ph_a gb_a" href="#">
+                        <span class="gb_k"></span>
+                        <span class="gb_ac">Photos</span>
+                    </a></li>
+                </ul>
+                <a href="#" class="gb_m">More</a>
+                
+            </div>
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
              <div class="login">
                  <a href="#" class="login_google">Sign in</a>
              </div>
@@ -78,5 +148,25 @@
         </div>
         
     </div>
+    
+    
+    <script>
+    function openclosed() {
+        const docId = document.querySelector("#db");
+        const style = getComputedStyle(docId);
+        const top = style.top;
+        if (top == "-9999px") {
+            document.getElementById("db").style.top = "66px";
+            document.getElementById("db").style.opacity = "1";
+        }
+        else {
+            document.getElementById("db").style.top = "-9999px";
+            document.getElementById("db").style.opacity = "0";
+        }
+        
+    }
+    
+   
+</script>
 </body>
 </html>
