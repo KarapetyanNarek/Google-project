@@ -47,6 +47,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    height: 28px;
+    line-height: 28px;
 }
 
 .post_pictures {
